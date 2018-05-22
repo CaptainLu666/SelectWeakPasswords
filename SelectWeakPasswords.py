@@ -68,8 +68,6 @@ if __name__ == '__main__':
     subject = '弱密码扫描结果'
     content = '弱密码扫描表，详见附件'
 
-    #server = smtplib.SMTP('smtp.exmail.qq.com', 25)  # SMTP协议默认端口是25
-    #server.login('pms@movee.cn', '_As1234567')
 
     all_list = []
     for info in AllInfo['result']:
